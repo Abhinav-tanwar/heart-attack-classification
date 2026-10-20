@@ -1,0 +1,111 @@
+{
+  "input_rows": 10000,
+  "rows_missing_outcome_excluded": 72,
+  "unique_labeled_rows": 9907,
+  "training_rows": 6934,
+  "test_rows": 2973,
+  "test_positive_cases": 172,
+  "test_prevalence": 0.05785401950891356,
+  "target": "self-reported history of heart attack, not a prospective event",
+  "models": {
+    "majority_baseline": {
+      "accuracy": 0.9421459804910864,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "average_precision": 0.05785401950891356,
+      "confusion_matrix": [
+        [
+          2801,
+          0
+        ],
+        [
+          172,
+          0
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "accuracy": 0.9418096199125463,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.8003993590329035,
+      "average_precision": 0.2039804487033567,
+      "confusion_matrix": [
+        [
+          2800,
+          1
+        ],
+        [
+          172,
+          0
+        ]
+      ],
+      "training_cv_average_precision": 0.20559414446771354
+    },
+    "logistic_regression_smotenc": {
+      "accuracy": 0.7813656239488732,
+      "precision": 0.13567073170731708,
+      "recall": 0.5174418604651163,
+      "f1": 0.21497584541062803,
+      "roc_auc": 0.7506164741828084,
+      "average_precision": 0.1666443589760393,
+      "confusion_matrix": [
+        [
+          2234,
+          567
+        ],
+        [
+          83,
+          89
+        ]
+      ],
+      "training_cv_average_precision": 0.1711544201240186
+    },
+    "random_forest": {
+      "accuracy": 0.9418096199125463,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.7487473327632157,
+      "average_precision": 0.15134589139814034,
+      "confusion_matrix": [
+        [
+          2800,
+          1
+        ],
+        [
+          172,
+          0
+        ]
+      ],
+      "training_cv_average_precision": 0.18736255886986222
+    },
+    "random_forest_smotenc": {
+      "accuracy": 0.8960645812310797,
+      "precision": 0.1625615763546798,
+      "recall": 0.19186046511627908,
+      "f1": 0.176,
+      "roc_auc": 0.7436941125677706,
+      "average_precision": 0.13125311860525074,
+      "confusion_matrix": [
+        [
+          2631,
+          170
+        ],
+        [
+          139,
+          33
+        ]
+      ],
+      "training_cv_average_precision": 0.14748908980898973
+    }
+  },
+  "training_cluster_counts": {
+    "0": 5413,
+    "1": 786,
+    "2": 735
+  }
+}
