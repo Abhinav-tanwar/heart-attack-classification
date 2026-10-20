@@ -24,7 +24,7 @@ Corrected pipeline, supplied sample, fixed stratified 70/30 split. Unknown outco
 
 | Model | ROC-AUC | Average precision | Precision | Recall | Training CV average precision |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| majority_baseline | 0.5000 | 0.0579 | 0.0000 | 0.0000 | 0.0000 |
+| majority_baseline | 0.5000 | 0.0579 | 0.0000 | 0.0000 | — |
 | logistic_regression | 0.8004 | 0.2040 | 0.0000 | 0.0000 | 0.2056 |
 | logistic_regression_smotenc | 0.7506 | 0.1666 | 0.1357 | 0.5174 | 0.1712 |
 | random_forest | 0.7487 | 0.1513 | 0.0000 | 0.0000 | 0.1874 |
