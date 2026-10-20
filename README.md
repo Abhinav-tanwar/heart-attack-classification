@@ -1,2 +1,3 @@
-# heart-attack-classification
-Leakage-controlled comparison of classifiers for self-reported heart-attack history
+# Heart Attack Classification
+
+Python analysis project. Input provenance and scope are documented in data/README.md.
